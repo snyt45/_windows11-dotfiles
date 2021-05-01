@@ -84,4 +84,6 @@ Write-Host ""
 Write-Host "... Install is complete"
 Write-Host ""
 
-sleep 30
+# 処理完了後、メッセージボックスを表示
+$wsobj = new-object -comobject wscript.shell
+$result = $wsobj.popup("セットアップが完了しました。PCを再起動してください。")
