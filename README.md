@@ -1,9 +1,11 @@
 # windows10-dotfiles
 ### Setup
+PowerShellで実行。
 ```
 $ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/snyt45/windows10-dotfiles/master/setup/init.ps1'))
 ```
 
+Git bashで実行。
 ```
 $ git clone https://github.com/snyt45/windows10-dotfiles .dotfiles
 $ cd ~/.dotfiles/bin

@@ -4,8 +4,9 @@
 
 # MicrosoftIME: 入力設定のスペース「常に半角」割当
 # MicrosoftIME: ESCキーに「IMEオフ」、無変換キーに「IMEオフ」、変換キーに「IMEオン」割当
-# キャプチャ: ゲーム>キャプチャ>ゲームのプレイ中にバックグラウンドで記録する　ON
-# キャプチャ: ゲーム>キャプチャ>最後を記録する　10分（要再起動）
+# キャプチャ: ゲーム>キャプチャ > ゲームのプレイ中にバックグラウンドで記録する　ON
+# キャプチャ: ゲーム>キャプチャ > 最後を記録する　10分（要再起動）
+# ブラウザ: Google Chrome > 既定のブラウザ ※scoopからインストールした場合、Google Chromeから設定する必要あり
 
 ####################
 # Uninstall manually
@@ -21,37 +22,33 @@
 # AutoHotKey: https://www.autohotkey.com/
 # Pragli: https://pragli.com/blog/desktop-client-downloads/
 # Origin: https://www.origin.com/jpn/ja-jp/store/download
+# ZOOM: https://zoom.us/download
+# FiraCode(フォント): 管理者権限でPowerShellを起動。 scoop install FiraCode
 
-##################
-# Setup AutoHotKey
-##################
+############
+# AutoHotKey
+############
 
 # 1. Win + R > shell:startup
 # 2. スタートアップフォルダに ./key-config.ahk をコピー
 
-############################
-# Setup Origin, Apex Legends
-############################
+#########
+# Dropbox
+#########
 
-# 1. 外付けSSDをPCに接続
-# 2. Origin起動 & ログイン
-# 3. Origin > アプリケーション設定 > インストール＆保存 > ローカルPC上 > ゲームライブラリの保存先 > 外付けSSDのOriginフォルダに設定
-# 4. ゲームライブラリ > Apex Legends の上で右クリック > ゲームを指定する > 外付けSSDのOrgin/APEXフォルダを指定
-# 5. APEXを起動。起動すれば完了
+# 1. Dropboxを起動しログインする。
 
-############################
-# Setup Razer BlackShark V2
-############################
+##########
+# Obsidian
+##########
 
-#  1. Razer BlackShark V2をUSB接続（セットアップが始まる）
-#  2. RAZER SYNAPSE のみチェックしてインストール
-#  3. RAZER SYNAPSEを起動
-#  4. Googleアカウントでログイン
-#  5. 設定が同期される。
+# 1. DropboxのVaultを読み込む
+# 2. About > Language > 日本語 > Relaunch
+# 3. サードパーティプラグイン > Obsidian Vimrc Support > ON > C-r
 
-##############
-# Setup VSCode
-##############
+########
+# VSCode
+########
 
 # https://qiita.com/kazurego7/items/3dc5a381811e4d429533
 
@@ -60,25 +57,69 @@
 # 3. Ctrl+Shift+P > Sync: Download Setting
 # 4. Ctrl+Shift+P > Configure Display Laungage > jaを選択 > 再起動
 
-############
-# Setup WSL2
-############
+###########
+# PowerToys
+###########
+
+# 1. PowerToysを起動する
+# 2. FancyZonesのレイアウトエディタを起動する
+# 3. レイアウトを作成
+# 4. Shiftを押しながらレイアウトしたいアプリを移動する
+
+######################
+# Origin, Apex Legends
+######################
+
+# 1. 外付けSSDをPCに接続
+# 2. Origin起動 & ログイン
+# 3. Origin > アプリケーション設定 > インストール＆保存 > ローカルPC上 > ゲームライブラリの保存先 > 外付けSSDのOriginフォルダに設定
+# 4. ゲームライブラリ > Apex Legends の上で右クリック > ゲームを指定する > 外付けSSDのOrgin/APEXフォルダを指定
+# 5. APEXを起動。起動すれば完了
+
+#####################
+# Razer BlackShark V2
+#####################
+
+# 1. Razer BlackShark V2をUSB接続（セットアップが始まる）
+# 2. RAZER SYNAPSE のみチェックしてインストール
+# 3. RAZER SYNAPSEを起動
+# 4. Googleアカウントでログイン
+# 5. 設定が同期される。
+
+######
+# WSL2
+######
 
 # https://docs.microsoft.com/ja-jp/windows/wsl/install-win10
 
-# 手順1～6を進める(Ubuntu 20.04 LTS)
+# 1. 手順1～6を進める(Ubuntu 20.04 LTS)
+# 2. Ubuntuを起動する。
+# 3. ID・PWを設定する。
 
-########################
-# Setup Windows Terminal
-########################
+##################
+# Windows Terminal
+##################
 
-# デフォルトの起動シェルを「Ubuntu」にする
-# 複数行貼り付け時の警告無効化
-# フォントの設定(Fira Code)、フォントのサイズ(9)
-# setting.jsonのactionsに追加(vimのC-vとwindows terminalのC-vが重複を避けるため) --> { "command": "paste", "keys": "ctrl+Shift+v" },
+# scoopインストールのため、WindowsTerminal.exeを一度起動しないと検索バーから起動できない
+# 設定を変更する
+# - 設定 > スタートアップ > Ubuntu-20.04
+# - 設定 > 操作(上部) > 選択範囲をクリップボードに自動でコピーする > ON
+# - 設定 > 操作(下部) > JSONファイルを開く
+#   - 複数行貼り付け時の警告無効化 --> "multiLinePasteWarning": false,
+#   - フォントの設定(Fira Code)、フォントのサイズ(9) -->
+#       "fontFace": "Fira Code",
+#       "fontSize": 9
+#   - 貼り付けのキーバインドをC-S-v(vimのC-vとwindows terminalのC-vが重複を避けるため) --> { "command": "paste", "keys": "ctrl+Shift+v" },
 
-##################################
-# Setup Docker Desktop for Windows
-##################################
+############################
+# Docker Desktop for Windows
+############################
 
 # https://dev.classmethod.jp/articles/docker-desktop-for-windows-on-wsl2/
+
+#######
+# Login 
+#######
+
+# Slack
+# Discord

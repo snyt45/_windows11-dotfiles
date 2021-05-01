@@ -40,10 +40,6 @@ scoop install slack
 Write-Host "Install Discord"
 scoop install discord
 
-# ZOOM
-Write-Host "Install ZOOM"
-scoop install zoom
-
 # Dropbox
 Write-Host "Install Dropbox"
 scoop install dropbox-np
@@ -55,10 +51,6 @@ scoop install obsidian
 # PowerToys
 Write-Host "Install PowerToys"
 scoop install powertoys-np
-
-# FiraCode(フォント)
-Write-Host "Install FiraCode"
-scoop install FiraCode
 
 # Windows Terminal
 Write-Host "Install Windows Terminal"
