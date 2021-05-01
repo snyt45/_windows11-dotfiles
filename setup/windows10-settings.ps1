@@ -43,8 +43,9 @@ $verb = $folder.self.Verbs() | ? {$_.Name -match "^クイック アクセスに.
 if ($verb) {$verb.DoIt()}
 
 # MicrosoftIME: Use previous version: Enabled
-Write-Host "MicrosoftIME: 以前のバージョン: 有効"
-Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Input\TSF\Tsf3Override\'{03b5835f-f03c-411b-9ce2-aa23e1171e36}' -Name NoTsf3Override2 -Value 1
+# Write-Host "MicrosoftIME: 以前のバージョン: 有効"
+# 一度手動で設定を行わないとレジストリに追加されないため初回はエラーが出るためコメントアウト
+# Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Input\TSF\Tsf3Override\'{03b5835f-f03c-411b-9ce2-aa23e1171e36}' -Name NoTsf3Override2 -Value 1
 
 # Restart Explorer (to reflect the settings)
 Write-Host "エクスプローラーを再起動します"
@@ -53,7 +54,3 @@ Stop-Process -Name Explorer -Force
 Write-Host ""
 Write-Host "... Setting is complete"
 Write-Host ""
-
-# 処理完了後、メッセージボックスを表示
-$wsobj = new-object -comobject wscript.shell
-$result = $wsobj.popup("セットアップが完了しました。PCを再起動してください。")
