@@ -12,7 +12,6 @@ try {
 catch [Exception] {
   # Scoopのインストール
   Write-Host "Install Scoop"
-  Set-ExecutionPolicy RemoteSigned -scope CurrentUser
   Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
 }
 
