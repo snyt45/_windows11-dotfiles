@@ -5,7 +5,7 @@ $ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.
 ```
 
 ```
-$ git clone https://github.com/snyt45/windows10-dotfiles ~/.dotfiles
+$ git clone https://github.com/snyt45/windows10-dotfiles .dotfiles
 $ cd ~/.dotfiles
 $ sh install.sh git
 ```
