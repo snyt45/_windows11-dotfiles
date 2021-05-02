@@ -110,6 +110,7 @@
 #       "fontFace": "Fira Code",
 #       "fontSize": 9
 #   - 貼り付けのキーバインドをC-S-v(vimのC-vとwindows terminalのC-vが重複を避けるため) --> { "command": "paste", "keys": "ctrl+Shift+v" },
+#   - Ubuntuのホームディレクトリに変更する https://qiita.com/kuangyujing/items/08d0fb01732bf67b8704
 
 ############################
 # Docker Desktop for Windows
