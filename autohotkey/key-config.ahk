@@ -11,11 +11,11 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory
 ; 今日の日付(YYYY/MM/DD形式)
 ::ds::
 FormatTime,TimeString,,yyyy:MM:dd
-Send,%TimeString%
+Send,%TimeString%{Space}
 Return
 
 ; 現在時刻(HH:MM形式)
 ::ns::
 FormatTime,TimeString,,HH:mm
-Send,%TimeString%
+Send,%TimeString%{Space}
 Return
