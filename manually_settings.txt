@@ -24,6 +24,9 @@
 # Pragli: https://pragli.com/blog/desktop-client-downloads/
 # Origin: https://www.origin.com/jpn/ja-jp/store/download
 # ZOOM: https://zoom.us/download
+# PowerShellの実行ポリシーを恒久的に変更：
+#   https://qiita.com/Targityen/items/3d2e0b5b0b7b04963750
+#   Set-ExecutionPolicy RemoteSigned
 # FiraCode(フォント): 管理者権限でPowerShellを起動。 scoop install FiraCode
 
 ############
