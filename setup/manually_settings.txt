@@ -1,13 +1,36 @@
+###########
+# PowerToys
+###########
+
+# 1. PowerToysを起動する
+# 2. FancyZonesのレイアウトエディタを起動する
+# 3. レイアウトを作成
+# 4. Shiftを押しながらレイアウトしたいアプリを移動する
+
+#########
+# Dropbox
+#########
+
+# 1. Dropboxを起動しログインする。
+# 2. ファイルの同期方法 > ファイルを[ローカル]に設定する
+
+##############
+# MicrosoftIME
+##############
+
+# 1. 下記の設定を行う。
+#   - 全般 > 以前のバージョンのMicrosoft IMEを使う ON
+#   - 入力設定のスペース「常に半角」割当
+#   - ESCキーに「IMEオフ」、無変換キーに「IMEオフ」、変換キーに「IMEオン」割当
+
 ##################
 # Windows Settings
 ##################
 
-# MicrosoftIME: 全般 > 以前のバージョンのMicrosoft IMEを使う ON
-# MicrosoftIME: 入力設定のスペース「常に半角」割当
-# MicrosoftIME: ESCキーに「IMEオフ」、無変換キーに「IMEオフ」、変換キーに「IMEオン」割当
-# キャプチャ: ゲーム > キャプチャ > ゲームのプレイ中にバックグラウンドで記録する　ON
-# キャプチャ: ゲーム > キャプチャ > 最後を記録する　10分（要再起動）
-# ブラウザ: Google Chrome > 既定のブラウザ ※scoopからインストールした場合、Google Chromeから設定する必要あり
+# 1. 下記の設定を行う。
+#   - キャプチャ: ゲーム > キャプチャ > ゲームのプレイ中にバックグラウンドで記録する　ON
+#   - キャプチャ: ゲーム > キャプチャ > 最後を記録する　10分（要再起動）
+#   - ブラウザ: Google Chrome > 既定のブラウザ ※scoopからインストールした場合、Google Chromeから設定する必要あり
 
 ####################
 # Uninstall manually
@@ -16,31 +39,47 @@
 # マカフィーリブセーフ: 専用ツールでアンイストール
 # 専用ツール --> https://service.mcafee.com/webcenter/portal/oracle/webcenter/page/scopedMD/s55728c97_466d_4ddb_952d_05484ea932c6/Page29.jspx;jsessionid=sbcZvFR2wGJm82t6Bo1A4wZwaBIQ1A-uJc-VgpL96osEFZl5u6QB!-1803590563!-1378589411?showFooter=false&locale=ja-JP&articleId=TS101693&leftWidth=0%25&showHeader=false&wc.contextURL=%2Fspaces%2Fcp&rightWidth=0%25&centerWidth=100%25&_adf.ctrl-state=9rps898cn_62&_afrLoop=54923939251582#!%40%40%3FshowFooter%3Dfalse%26locale%3Dja-JP%26_afrLoop%3D54923939251582%26articleId%3DTS101693%26leftWidth%3D0%2525%26showHeader%3Dfalse%26wc.contextURL%3D%252Fspaces%252Fcp%26rightWidth%3D0%2525%26centerWidth%3D100%2525%26_adf.ctrl-state%3D19vieaesc8_4
 
-##################
-# Install manually
-##################
-
-# AutoHotKey: https://www.autohotkey.com/
-# Pragli: https://pragli.com/blog/desktop-client-downloads/
-# Origin: https://www.origin.com/jpn/ja-jp/store/download
-# ZOOM: https://zoom.us/download
-# PowerShellの実行ポリシーを恒久的に変更：
-#   https://qiita.com/Targityen/items/3d2e0b5b0b7b04963750
-#   Set-ExecutionPolicy RemoteSigned
-# FiraCode(フォント): 管理者権限でPowerShellを起動。 scoop install FiraCode
-
 ############
 # AutoHotKey
 ############
 
+# インストール： https://www.autohotkey.com/
 # 1. Win + R > shell:startup
 # 2. スタートアップフォルダに ./key-config.ahk をコピー
 
-#########
-# Dropbox
-#########
+########
+# Pragli
+########
 
-# 1. Dropboxを起動しログインする。
+# インストール： https://pragli.com/blog/desktop-client-downloads/
+# 1. Pragliを起動しログインする。
+
+######################
+# Origin, Apex Legends
+######################
+
+# インストール： https://www.origin.com/jpn/ja-jp/store/download
+# 1. 外付けSSDをPCに接続
+# 2. Origin起動 & ログイン
+# 3. Origin > アプリケーション設定 > インストール＆保存 > ローカルPC上 > ゲームライブラリの保存先 > 外付けSSDのOriginフォルダに設定
+# 4. ゲームライブラリ > Apex Legends の上で右クリック > ゲームを指定する > 外付けSSDのOrgin/APEXフォルダを指定
+# 5. APEXを起動。起動すれば完了
+
+######
+# ZOOM
+######
+
+# インストール： https://zoom.us/download
+
+###################
+# FiraCode(フォント)
+###################
+
+# 1. PowerShellの実行ポリシーを恒久的に変更：
+#   https://qiita.com/Targityen/items/3d2e0b5b0b7b04963750
+#   Set-ExecutionPolicy RemoteSigned
+# 2. 管理者権限でPowerShellを起動。
+# 3. scoop install FiraCode
 
 ##########
 # Obsidian
@@ -60,25 +99,6 @@
 # 2. 「Welcome to Settings Sync」の画面が開く > LOGIN WITH GITHUB > Select Your Existing Gist > 上を選択
 # 3. Ctrl+Shift+P > Sync: Download Setting
 # 4. Ctrl+Shift+P > Configure Display Laungage > jaを選択 > 再起動
-
-###########
-# PowerToys
-###########
-
-# 1. PowerToysを起動する
-# 2. FancyZonesのレイアウトエディタを起動する
-# 3. レイアウトを作成
-# 4. Shiftを押しながらレイアウトしたいアプリを移動する
-
-######################
-# Origin, Apex Legends
-######################
-
-# 1. 外付けSSDをPCに接続
-# 2. Origin起動 & ログイン
-# 3. Origin > アプリケーション設定 > インストール＆保存 > ローカルPC上 > ゲームライブラリの保存先 > 外付けSSDのOriginフォルダに設定
-# 4. ゲームライブラリ > Apex Legends の上で右クリック > ゲームを指定する > 外付けSSDのOrgin/APEXフォルダを指定
-# 5. APEXを起動。起動すれば完了
 
 #####################
 # Razer BlackShark V2
@@ -128,4 +148,3 @@
 
 # Slack
 # Discord
-# Pragil
