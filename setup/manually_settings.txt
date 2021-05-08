@@ -85,9 +85,10 @@
 # Obsidian
 ##########
 
-# 1. DropboxのVaultを読み込む
-# 2. About > Language > 日本語 > Relaunch
-# 3. サードパーティプラグイン > Obsidian Vimrc Support > ON > C-r
+# 1. Obsidianを起動。DropboxのVaultを読み込む
+# 2. Safe mode > 「Turn off Safe Mode」を選択
+# 3. About > Language > 日本語 > Relaunch
+# 4. サードパーティプラグイン > Obsidian Vimrc Support > ON > C-r
 
 ########
 # VSCode
