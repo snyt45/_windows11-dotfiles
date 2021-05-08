@@ -7,9 +7,9 @@ $ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.
 
 2. manually_settings.txtを参考に手動でセットアップを進める。
 
-3. Git bashで実行。
+3. WSL上で実行。
 ```
-$ git clone https://github.com/snyt45/windows10-dotfiles .dotfiles
+$ git clone https://github.com/snyt45/wsl-dotfiles.git .dotfiles
 $ cd ~/.dotfiles/bin
 $ sh install.sh git
 ```
