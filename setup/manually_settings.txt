@@ -138,7 +138,10 @@
 # Docker Desktop for Windows
 ############################
 
-# https://dev.classmethod.jp/articles/docker-desktop-for-windows-on-wsl2/
+# 参考： https://dev.classmethod.jp/articles/docker-desktop-for-windows-on-wsl2/
+# インストール： https://hub.docker.com/editions/community/docker-ce-desktop-windows > 「Get Docker Desktop for Windows」
+
+# 1. Dockerをインストール時に「Enable WSL 2 Windows Features」にチェックを入れてインストールを実行
 
 #######
 # Login 
