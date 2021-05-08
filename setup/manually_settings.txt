@@ -125,16 +125,13 @@
 # Windows Terminal
 ##################
 
-# scoopインストールのため、WindowsTerminal.exeを一度起動しないと検索バーから起動できない
-# 設定を変更する
-# - 設定 > スタートアップ > Ubuntu-20.04
-# - 設定 > 操作(上部) > 選択範囲をクリップボードに自動でコピーする > ON
-# - 設定 > 操作(下部) > JSONファイルを開く
-#   - 複数行貼り付け時の警告無効化 --> "multiLinePasteWarning": false,
-#   - フォントの設定(Fira Code)、フォントのサイズ(9) -->
-#       "fontFace": "Fira Code",
-#       "fontSize": 9
-#   - 貼り付けのキーバインドをC-S-v(vimのC-vとwindows terminalのC-vが重複を避けるため) --> { "command": "paste", "keys": "ctrl+Shift+v" },
+# 1. 設定を変更する
+#   - スタートアップ > Ubuntu-20.04
+#   - 操作(上部) > 選択範囲をクリップボードに自動でコピーする > ON
+#   - 操作(下部) > JSONファイルを開く
+#     #- 複数行貼り付け時の警告無効化 --> "multiLinePasteWarning": false,
+#     - pasteのkeysを`ctrl+v`→`ctrl+shift+v`に変更 ※vimのC-vとwindows terminalのC-vが重複するため
+#   - プロファイル > Default > 外観のフォントフェイスをFira Code、フォントのサイズを9に変更
 #   - Ubuntuのホームディレクトリに変更する https://qiita.com/kuangyujing/items/08d0fb01732bf67b8704
 
 ############################
