@@ -1,5 +1,4 @@
-# windows10-dotfiles
-### Setup
+# Setup
 1. 管理者権限でPowerShellを起動し実行。
 ```
 $ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/snyt45/windows10-dotfiles/master/setup/init.ps1'))
