@@ -70,11 +70,12 @@ Write-Host "Install Tera Term"
 scoop install teraterm
 
 # Mery
+Write-Host "Install Merry"
 scoop install mery
 
 # Tablacus Explorer
+Write-Host "Install Tablacus Explorer"
 scoop install tablacus-explorer
-
 
 Write-Host ""
 Write-Host "... Install is complete"
