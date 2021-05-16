@@ -19,6 +19,7 @@ scoop install git
 scoop bucket add extras
 scoop bucket add nonportable
 scoop bucket add nerd-fonts
+scoop bucket add iyokan-jp https://github.com/tetradice/scoop-iyokan-jp
 
 # Google Chrome
 Write-Host "Install Google Chrome"
@@ -66,7 +67,14 @@ scoop install PuTTY
 
 # Tera Term
 Write-Host "Install Tera Term"
-scoop install teraterm 
+scoop install teraterm
+
+# Mery
+scoop install mery
+
+# Tablacus Explorer
+scoop install tablacus-explorer
+
 
 Write-Host ""
 Write-Host "... Install is complete"
