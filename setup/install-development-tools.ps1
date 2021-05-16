@@ -77,6 +77,10 @@ scoop install mery
 Write-Host "Install Tablacus Explorer"
 scoop install tablacus-explorer
 
+# DeepL
+Write-Host "Install DeepL"
+scoop install deepL
+
 Write-Host ""
 Write-Host "... Install is complete"
 Write-Host ""
