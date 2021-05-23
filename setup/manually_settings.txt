@@ -123,6 +123,15 @@
 # 4. Googleアカウントでログイン
 # 5. 設定が同期される。
 
+###########
+# AnkerWork
+###########
+
+# https://www.ankerjapan.com/item/A3361.html#ankerwork
+
+# 1. Anker PowerConf C300をUSB接続（セットアップが始まる）
+# 2. AnkerWork ソフトウェアのダウンロード
+
 ######
 # WSL2
 ######
