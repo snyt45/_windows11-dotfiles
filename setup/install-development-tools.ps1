@@ -81,6 +81,10 @@ scoop install tablacus-explorer
 Write-Host "Install DeepL"
 scoop install deepL
 
+# f.lux
+Write-Host "Install f.lux"
+scoop install flux
+
 Write-Host ""
 Write-Host "... Install is complete"
 Write-Host ""
