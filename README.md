@@ -12,3 +12,5 @@ $ git clone https://github.com/snyt45/wsl-dotfiles.git .dotfiles
 $ cd ~/.dotfiles/bin
 $ sh install.sh git
 ```
+
+4. `.wslconfig`を`~/`にコピー。PC再起動。
