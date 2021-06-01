@@ -85,6 +85,10 @@ scoop install deepL
 Write-Host "Install f.lux"
 scoop install flux
 
+# MySQL Workbench
+Write-Host "Install MySQL Workbench"
+scoop install mysql-workbench
+
 Write-Host ""
 Write-Host "... Install is complete"
 Write-Host ""
