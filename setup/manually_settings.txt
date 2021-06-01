@@ -113,6 +113,15 @@
 # 3. Ctrl+Shift+P > Sync: Download Setting
 # 4. Ctrl+Shift+P > Configure Display Laungage > jaを選択 > 再起動
 
+##################
+# MySQL Worckbench
+##################
+
+# https://www.web-jozu.com/web/trouble/mysql-workbench-8-kido/
+
+# 1. 上記URLから起動に必要なライブラリをインストール
+# 2. PC再起動
+
 #####################
 # Razer BlackShark V2
 #####################
