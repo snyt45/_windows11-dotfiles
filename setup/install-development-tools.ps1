@@ -89,6 +89,14 @@ scoop install flux
 Write-Host "Install MySQL Workbench"
 scoop install mysql-workbench
 
+# Git Kraken
+Write-Host "Install Git Kraken"
+scoop install gitkraken
+
+# Postman
+Write-Host "Install Postman"
+scoop install postman
+
 Write-Host ""
 Write-Host "... Install is complete"
 Write-Host ""
