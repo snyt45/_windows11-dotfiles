@@ -97,6 +97,10 @@ scoop install gitkraken
 Write-Host "Install Postman"
 scoop install postman
 
+# LibreOffice
+Write-Host "Install LibreOffice"
+scoop install libreoffice-stable
+
 Write-Host ""
 Write-Host "... Install is complete"
 Write-Host ""
