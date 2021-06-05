@@ -101,6 +101,10 @@ scoop install postman
 Write-Host "Install LibreOffice"
 scoop install libreoffice-stable
 
+# snipaste
+Write-Host "Install snipaste"
+scoop install snipaste
+
 Write-Host ""
 Write-Host "... Install is complete"
 Write-Host ""
