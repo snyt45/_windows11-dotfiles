@@ -111,6 +111,15 @@
 # 4. サードパーティプラグイン > Obsidian Vimrc Support > ON > C-r
 
 ########
+# Jasper
+########
+
+# https://jasperapp.io/
+
+# 1. サイトからJasperをインストール
+# 2. Jasperの指示に従って設定を進める
+
+########
 # VSCode
 ########
 
