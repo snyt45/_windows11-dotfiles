@@ -169,7 +169,7 @@
 #   - 操作(下部) > JSONファイルを開く
 #     #- 複数行貼り付け時の警告無効化 --> "multiLinePasteWarning": false,
 #     - pasteのkeysを`ctrl+v`→`ctrl+shift+v`に変更 ※vimのC-vとwindows terminalのC-vが重複するため
-#   - プロファイル > Default > 外観のフォントフェイスをFira Code、フォントのサイズを9に変更
+#   - プロファイル > Ubuntu > 外観のフォントフェイスをFira Code、フォントのサイズを11に変更 ※プロファイルごとに設定しないと反映されないので注意！
 #   - Ubuntuのホームディレクトリに変更する https://qiita.com/kuangyujing/items/08d0fb01732bf67b8704
 
 ############################
