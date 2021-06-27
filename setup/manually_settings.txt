@@ -32,12 +32,6 @@
 #   - キャプチャ: ゲーム > キャプチャ > 最後を記録する　10分（要再起動）
 #   - ブラウザ: Google Chrome > 既定のブラウザ ※scoopからインストールした場合、Google Chromeから設定する必要あり
 
-##########
-# Sidekick
-##########
-
-# https://www.meetsidekick.com/
-
 ###################
 # Tablacus Explorer
 ###################
