@@ -105,6 +105,10 @@ scoop install libreoffice-stable
 Write-Host "Install snipaste"
 scoop install snipaste
 
+# eartrumpet
+Write-Host "Install eartrumpet"
+scoop install eartrumpet
+
 Write-Host ""
 Write-Host "... Install is complete"
 Write-Host ""
