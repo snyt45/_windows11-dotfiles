@@ -109,6 +109,10 @@ scoop install snipaste
 Write-Host "Install eartrumpet"
 scoop install eartrumpet
 
+# zeal
+Write-Host "Install zeal"
+scoop install zeal
+
 Write-Host ""
 Write-Host "... Install is complete"
 Write-Host ""
