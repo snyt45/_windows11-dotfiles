@@ -79,6 +79,18 @@
 # インストール： https://pragli.com/blog/desktop-client-downloads/
 # 1. Pragliを起動しログインする。
 
+#########
+# LICEcap
+#########
+
+# インストール： https://www.cockos.com/licecap/
+
+##############
+# Key-n-Stroke
+##############
+
+# インストール： https://github.com/Phaiax/Key-n-Stroke
+
 ######################
 # Origin, Apex Legends
 ######################
