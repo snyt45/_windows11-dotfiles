@@ -63,7 +63,8 @@
 ############
 
 # インストール： https://forest.watch.impress.co.jp/library/software/changekey/
-# CapsLockキー(日本語キーボードの場合はVK240(英数キー))をAltキーに割り当て
+# 1. 管理者権限で起動
+# 2. CapsLockキー(日本語キーボードの場合はVK240(英数キー))をAltキーに割り当て
 
 #############################
 # PowerToys(Keyboard Manager)
