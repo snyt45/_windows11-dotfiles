@@ -113,6 +113,10 @@ scoop install eartrumpet
 Write-Host "Install zeal"
 scoop install zeal
 
+# 7zip
+Write-Host "Install 7zip"
+scoop install 7zip
+
 Write-Host ""
 Write-Host "... Install is complete"
 Write-Host ""
