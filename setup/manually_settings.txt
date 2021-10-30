@@ -58,6 +58,26 @@
 # 1. Win + R > shell:startup
 # 2. スタートアップフォルダに ./key-config.ahk をコピー
 
+############
+# Change Key
+############
+
+# インストール： https://forest.watch.impress.co.jp/library/software/changekey/
+# CapsLockキー(日本語キーボードの場合はVK240(英数キー))をAltキーに割り当て
+
+#############################
+# PowerToys(Keyboard Manager)
+#############################
+
+# 矢印キーを撲滅させるための設定を行う
+# 前提：Change KeyでCapsLockキーをAltキーに割り当てておく
+# 補足：キー再マップでCapsLockキーをAltキーに割り当てると不具合で押しっぱなしになるためChange Keyを使用する
+# ショートカットキーの再マップ
+#   Alt + h → Left
+#   Alt + j → Down
+#   Alt + k → Up
+#   Alt + l → Right
+
 ##########
 # snipaste
 ##########
